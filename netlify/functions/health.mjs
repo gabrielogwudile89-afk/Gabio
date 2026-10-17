@@ -1,0 +1,1 @@
+export default async () => new Response(JSON.stringify({service:"Novareach Digital",status:"starter-online",payments:"not-configured"}),{status:200,headers:{"content-type":"application/json; charset=utf-8"}});
